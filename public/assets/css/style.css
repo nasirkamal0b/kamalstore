@@ -2057,18 +2057,23 @@ Products CSS
   margin-bottom: 30px;
 }
 .single-products-box .products-image {
-    max-width: 355px;
-    max-height: 375px;
+    width: 355px;
+    height: 375px;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 .single-products-box .products-image a {
   position: relative;
+  height: 100%;
+  width: 100%;
   display: block;
 }
 .single-products-box .products-image a img {
   transition: 0.8s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .single-products-box .products-image a .hover-image {
   position: absolute;

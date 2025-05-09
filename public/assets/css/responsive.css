@@ -1303,3 +1303,24 @@
     max-width: 755px;
   }
 }/*# sourceMappingURL=responsive.css.map */
+@media only screen and (min-width:320px) and (max-width:425px){
+    .productCard .single-products-box .products-image{
+        height: 280px;
+        width: 180px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+    }
+    .productCard .single-products-box .products-image a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .productCard .single-products-box .products-image a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

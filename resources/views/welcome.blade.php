@@ -95,7 +95,7 @@
 
         <div class="row justify-content-center">
             @foreach($recentProducts as $product)
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6 productCard">
                 <div class="single-products-box">
                     <div class="products-image">
                         <a href="/shop">
@@ -193,7 +193,7 @@
 
         <div class="row justify-content-center">
         @foreach($popularProducts as $product)
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="productCard col-lg-4 col-md-6 col-sm-6">
                 <div class="single-products-box">
                     <div class="products-image">
                         <a href="/shop">
@@ -331,7 +331,7 @@
 
         <div class="row justify-content-center">
         @foreach($bestSellingProducts as $product)
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="productCard col-lg-4 col-md-6 col-sm-6">
                 <div class="single-products-box">
                     <div class="products-image">
                         <a href="/shop">

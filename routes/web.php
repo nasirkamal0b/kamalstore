@@ -14,9 +14,6 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CommentController;
 
 
-
-
-
 // Public Routes (Accessible without login)
 // Route::get('/', function () {
 //     return view('welcome');
